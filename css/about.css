@@ -1,0 +1,80 @@
+:root{
+  --bs-primary: #746961; 
+  --bs-primary-rgb:(116,105,97);
+  --bs-secondary:#74C5C1;
+  --bs-secondary-rgb:(116,197,193);
+}
+
+
+body{
+  font-family: Garamond;
+}
+
+
+
+nav ul li{
+  color: var(--bs-secondary);
+}
+
+.btn{
+  --bs-btn-border-color:white;
+  --bs-btn-hover-border-color: var(--bs-primary);
+  --bs-btn-activate-border-color: white;
+}
+header{
+  background-color:rgb(116,105,97,0.7 );
+  
+}
+
+.skiptomain{
+  position: absolute;
+  left: -10px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.skiptomain:focus{
+    position: static;
+    width: auto;
+    height: auto;
+}
+
+
+
+#home{
+    background-image: url(../images/banner1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  background-position:center top;
+}
+  
+
+  .title{
+    height: 5rem;
+    margin-top: 15rem;
+  }
+  a img{
+    width: 20px;
+    /* height:7%; */
+  }
+
+  .porttitle{
+    text-align: center;
+    padding: 2em;
+  }
+
+  footer{
+    background-color:var(--bs-primary)
+  }
+  
+
+
+  /* .imgsec{
+    background-color:rgb(116,105,97,0.3);
+  } */
+  main{
+    background-color:rgb(116,105,97,0.3);
+  }
+  
