@@ -67,6 +67,9 @@ header{
     background-color:var(--bs-primary);
 
   }
+  #cp{
+    color:white;
+  }
   
 main{
   background-color:rgb(116,105,97,0.3);

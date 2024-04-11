@@ -68,7 +68,9 @@ header{
   footer{
     background-color:var(--bs-primary)
   }
-  
+  #cp{
+    color:white;
+  }
 
 
   /* .imgsec{
