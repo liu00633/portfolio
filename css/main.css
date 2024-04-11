@@ -76,3 +76,31 @@ header{
 nav ul li:hover{
   text-decoration: underline;
 }
+
+/* ************************** optmize banner image   ****************************** */
+@media screen and (max-width: 425px) {
+  #home{
+    background-image: url(../images/banner425_x_386.JPG);
+  }
+}
+  
+@media screen and (min-width: 768px) {
+  #home{
+    background-image: url(../images/banner768_x_698.JPG);
+  }
+}
+  
+@media screen and (min-width: 1024px) {
+  #home{
+    background-image: url(../images/banner1024_x_931.JPG);
+  }
+}
+@media screen and (min-width: 1440px) {
+  #home{
+    background-image: url(../images/banner1440_x_1309.JPG);
+  }
+}
+  
+
+  
+
